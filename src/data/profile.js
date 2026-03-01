@@ -2,21 +2,21 @@
 export const profile = {
   name: 'Seth Robinson',
   role: 'Software Developer',
-  tagline: 'Building clean, interactive web experiences.',
+  tagline: 'A passion for learning and developing.',
   github: 'https://github.com/sethrobinson29',
-  linkedin: 'https://linkedin.com/in/', // TODO: add your LinkedIn profile slug
-  resumeUrl: '/resume.pdf', // Add resume.pdf to /public before deploying
+  linkedin: 'https://www.linkedin.com/in/seth-robinson-9a2940279/',
+  resumeUrl: '/resume.pdf',
 
   about:
-    'Software developer with a passion for building clean, interactive web experiences. ' +
-    'I enjoy turning ideas into polished products — from full-stack applications to interactive games. ' +
-    'Currently open to new opportunities.',
+    'Software developer with a love of problem solving. ' +
+    'I enjoy turning ideas into polished products and tackling difficult tasks. ' +
+    'Open to new opportunities to learn and contribute to great products.',
 
   // Group skills by category. Add, remove, or rename categories freely.
   skills: {
-    Languages: ['JavaScript', 'HTML', 'CSS'],
+    Languages: ['PHP', 'JavaScript', 'HTML', 'CSS', 'C++', 'Python', 'Typescript', 'MySQL'],
     Frameworks: ['React', 'Node.js', 'Tailwind CSS'],
-    Tools: ['Git', 'GitHub', 'VS Code'],
+    Tools: ['Git', 'GitHub', 'PhpStorm', 'CLI', 'Bash', 'Claude Code', 'GitLab', 'Jira', 'Splunk'],
   },
 
   // Add a new object here for each project.
@@ -25,7 +25,7 @@ export const profile = {
       name: 'Jeo Party',
       description:
         'A Jeopardy-style trivia game built for competing with friends. Features custom categories, real-time scoring, and a host-controlled game flow.',
-      tech: ['React', 'Node.js'],
+      tech: ['PHP', 'React', 'Node.js'],
       liveUrl: null, // Set to the live URL once deployed
       githubUrl: 'https://github.com/sethrobinson29/jeo-party',
     },

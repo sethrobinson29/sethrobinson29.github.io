@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <section id="skills" className="mb-20">
       <SectionHeading>Skills</SectionHeading>
-      <div className="flex flex-col gap-4">
+      <div className="max-w-2xl mx-auto flex flex-col gap-4">
         {Object.entries(profile.skills).map(([category, items]) => (
           <GlassCard key={category} className="p-5">
             <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">
