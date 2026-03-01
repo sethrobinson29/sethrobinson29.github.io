@@ -26,7 +26,7 @@ export const profile = {
       description:
         'A Jeopardy-style trivia game built for competing with friends. Features custom categories, real-time scoring, and a host-controlled game flow.',
       tech: ['PHP', 'React', 'Node.js'],
-      liveUrl: null, // Set to the live URL once deployed
+      liveUrl: 'https://jeo-party.sethrobinson29.com/',
       githubUrl: 'https://github.com/sethrobinson29/jeo-party',
     },
   ],
