@@ -1,6 +1,6 @@
 # sethrobinson29.github.io
 
-Personal portfolio site hosted at [sethrobinson29.github.io](https://sethrobinson29.github.io).
+Personal portfolio site hosted at [sethrobinson29.github.io](https://sethrobinson29.com).
 
 Built with React and Tailwind CSS.
 
