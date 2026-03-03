@@ -7,7 +7,7 @@ import Footer from './components/sections/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#080b14] text-slate-100">
+    <div className="min-h-screen bg-[#0c1022] text-slate-100">
       <Background />
       <div className="relative z-10 flex flex-col lg:flex-row">
         <Sidebar />

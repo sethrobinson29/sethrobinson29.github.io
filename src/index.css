@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: dark;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,8 +14,8 @@ html {
 .orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.12;
+  filter: blur(70px);
+  opacity: 0.22;
 }
 
 .orb-1 {

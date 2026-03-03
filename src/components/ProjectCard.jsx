@@ -11,7 +11,7 @@ const ProjectCard = ({ name, description, tech, liveUrl, githubUrl }) => {
   }, [tech]);
 
   return (
-    <GlassCard className="p-6 flex flex-col gap-4 hover:border-white/[0.15] hover:bg-white/[0.07] transition-all duration-300">
+    <GlassCard className="p-6 flex flex-col gap-4 hover:border-white/[0.15] hover:bg-white/[0.10] transition-all duration-300">
       <div className="flex-1">
         <h3 className="text-lg font-semibold text-slate-100">{name}</h3>
         <p className="mt-2 text-slate-400 text-sm leading-relaxed">{description}</p>

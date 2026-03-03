@@ -29,5 +29,13 @@ export const profile = {
       liveUrl: 'https://jeo-party.sethrobinson29.com/',
       githubUrl: 'https://github.com/sethrobinson29/jeo-party',
     },
+    {
+      name: 'Chromablocks',
+      description:
+        'A cyberpunk-themed Tetris-style falling-block puzzle game with neon visuals, piece holding, and full keyboard controls.',
+      tech: ['TypeScript', 'Phaser 3', 'Vite'],
+      liveUrl: 'https://sethrobinson29.com/tjs/',
+      githubUrl: 'https://github.com/sethrobinson29/tjs',
+    },
   ],
 };
