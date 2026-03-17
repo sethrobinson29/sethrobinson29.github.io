@@ -24,7 +24,7 @@ export const profile = {
     {
       name: 'Jeo Party',
       description:
-        'A Jeopardy-style trivia game built for competing with friends. Features custom categories, real-time scoring, and a host-controlled game flow.',
+        'A trivia game built for studying using PHP and React.',
       tech: ['PHP', 'React', 'Node.js'],
       liveUrl: 'https://jeo-party.sethrobinson29.com/',
       githubUrl: 'https://github.com/sethrobinson29/jeo-party',
@@ -32,7 +32,7 @@ export const profile = {
     {
       name: 'Chromablocks',
       description:
-        'A cyberpunk-themed Tetris-style falling-block puzzle game with neon visuals, piece holding, and full keyboard controls.',
+        'A falling-block puzzle game written in TypeScript using Phaser 3.',
       tech: ['TypeScript', 'Phaser 3', 'Vite'],
       liveUrl: 'https://sethrobinson29.com/tjs/',
       githubUrl: 'https://github.com/sethrobinson29/tjs',
