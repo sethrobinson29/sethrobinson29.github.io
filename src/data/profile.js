@@ -37,5 +37,13 @@ export const profile = {
       liveUrl: 'https://sethrobinson29.com/tjs/',
       githubUrl: 'https://github.com/sethrobinson29/tjs',
     },
+    {
+      name: 'Sorting Algorithm Visualizer',
+      description:
+        'A sorting algorithm visualizer built with Python and Pygame, compiled to WebAssembly and run in the browser.',
+      tech: ['Python', 'Pygame', 'WebAssembly'],
+      liveUrl: 'https://sethrobinson29.com/python-vis-sort-web/',
+      githubUrl: 'https://github.com/sethrobinson29/python-vis-sort-web',
+    },
   ],
 };
