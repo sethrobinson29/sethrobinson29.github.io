@@ -1,22 +1,20 @@
+import { useState, useCallback } from 'react';
 import Background from './components/layout/Background';
-import Sidebar from './components/layout/Sidebar';
-import About from './components/sections/About';
-import Skills from './components/sections/Skills';
-import Projects from './components/sections/Projects';
+import TopNav from './components/layout/TopNav';
+import Carousel from './components/Carousel';
 import Footer from './components/sections/Footer';
 
 function App() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const onNavigate = useCallback((i) => setCurrentIndex(i), []);
+
   return (
     <div className="min-h-screen bg-[#0c1022] text-slate-100">
       <Background />
-      <div className="relative z-10 flex flex-col lg:flex-row">
-        <Sidebar />
-        <main className="flex-1 px-6 py-12 lg:ml-72 lg:px-16 lg:py-20">
-          <About />
-          <Skills />
-          <Projects />
-          <Footer />
-        </main>
+      <div className="relative z-10 flex flex-col" style={{ paddingTop: '4rem' }}>
+        <TopNav currentIndex={currentIndex} onNavigate={onNavigate} />
+        <Carousel currentIndex={currentIndex} onNavigate={onNavigate} />
+        <Footer />
       </div>
     </div>
   );
