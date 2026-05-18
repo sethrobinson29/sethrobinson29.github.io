@@ -45,5 +45,13 @@ export const profile = {
       liveUrl: 'https://sethrobinson29.com/python-vis-sort-web/',
       githubUrl: 'https://github.com/sethrobinson29/python-vis-sort-web',
     },
+    {
+      name: 'Wander',
+      description:
+        'A Magic: The Gathering deck builder and playtesting app. Build and share decklists, write primers, and goldfish decks on a virtual playtesting table.',
+      tech: ['C#', 'Blazor', 'ASP.NET Core', 'PostgreSQL', 'SignalR'],
+      liveUrl: 'https://wander.sethrobinson29.com/',
+      githubUrl: 'https://github.com/sethrobinson29/wander',
+    },
   ],
 };
