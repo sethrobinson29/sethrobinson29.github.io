@@ -26,7 +26,6 @@ export const profile = {
       description:
         'A trivia game built for studying using PHP and React.',
       tech: ['PHP', 'React', 'Node.js'],
-      liveUrl: 'https://jeo-party.sethrobinson29.com/',
       githubUrl: 'https://github.com/sethrobinson29/jeo-party',
     },
     {
@@ -50,7 +49,6 @@ export const profile = {
       description:
         'A Magic: The Gathering deck builder and playtesting app. Build and share decklists, write primers, and goldfish decks on a virtual playtesting table.',
       tech: ['C#', 'Blazor', 'ASP.NET Core', 'PostgreSQL', 'SignalR'],
-      liveUrl: 'https://wander.sethrobinson29.com/',
       githubUrl: 'https://github.com/sethrobinson29/wander',
     },
   ],
